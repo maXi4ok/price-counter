@@ -1,0 +1,13 @@
+
+        body{
+            margin: 0;
+            padding: 0;
+            background: greenyellow;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+        }
+        h2{
+            font-family: 'Inter', sans-serif;
+            font-size: medium;
+            text-align: center;
+        }
