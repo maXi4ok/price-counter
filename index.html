@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Обчислювач акцій</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Обчислювач акцій</h1>
-    <script src="sale-counter.js">
-        
-    </script>
+    <main>
+        <h2>Обчислювач акцій</h2>
+        <label for="inputPrice">Впишіть ціну товару:</label>
+        <input inputmode="numeric" id="inputPrice">
+        <label for="inputSale">Впишіть знижку:</label>
+        <input inputmode="numeric" id="inputSale">
+        <p class="output"></p>
+    </main>
+    <script src="sale-counter.js"></script>
+    <script src="menuAnimation.js"></script>
 </body>
 </html>
